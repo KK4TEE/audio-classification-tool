@@ -1,0 +1,9 @@
+tkinter
+PyYAML
+librosa
+numpy
+matplotlib
+pyaudio
+soundfile
+threading
+webbrowser

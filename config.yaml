@@ -1,0 +1,60 @@
+resolution: "1900x1000"
+file_panel_width: 400
+auto_play_sound: True
+
+input_directory: "C:\\datasets\\audioline\\dataset_candidates"
+output_directory: "C:\\datasets\\audioline\\tagged-output"
+secondary_output_directory: "C:\\datasets\\audioline\\tagged-output-secondary"
+#input_directory: "/mnt/c/datasets/audioline/dataset_candidates"
+#output_directory: "/mnt/c/datasets/audioline/tagged-output"
+
+quick_actions:
+  - previous
+  - play
+  - next
+  - accept_default
+  - unknown
+labels:
+  primary:
+    - a_fire
+    - d_c_bathroom
+    - d_c_freezer
+    - d_c_front
+    - d_c_fridge
+    - d_c_microwave
+    - d_o_bathroom
+    - d_o_freezer
+    - d_o_front
+    - d_o_microwave
+    - h_backward
+    - h_clap_double
+    - h_cough
+    - h_sneeze
+    - idle
+  secondary:
+    - a_garbage_disposal
+    - a_laundry_machine
+    - a_microwave_button
+    - a_microwave_finished
+    - a_toaster_bell
+    - d_c_bedroom
+    - d_c_cabinet
+    - d_c_laundry_closet
+    - d_doorbell
+    - d_m_bathroom
+    - d_m_freezer
+    - d_m_front
+    - d_m_laundry_closet
+    - d_o_bedroom
+    - d_o_fridge
+    - d_o_laundry_closet
+    - h_clap_many
+    - h_clap_single
+    - h_laugh
+    - h_snap_double
+    - h_sniffle
+    - h_talking
+    - o_coffe_grinder
+    - o_firework
+    - o_malformed_audio
+    - o_paper_towel
