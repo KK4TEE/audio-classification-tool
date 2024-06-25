@@ -1,4 +1,5 @@
 # Audio classification Tool
+![Screenshot of the audio classification tool running with a file selected for playback](hero_screenshot.png)
 
 Audio Classification Tool is a graphical user interface (GUI) application for classifying and organizing audio files into specific categories. This tool is designed to facilitate the tagging and management of audio datasets, particularly for use in machine learning projects.
 
@@ -17,7 +18,7 @@ Audio Classification Tool is a graphical user interface (GUI) application for cl
 1. Clone the repository:
     ```sh
     git clone https://github.com/KK4TEE/audio-classification-tool.git
-    cd audio-tag
+    cd audio-classification-tool
     ```
 
 2. Install the required dependencies:
